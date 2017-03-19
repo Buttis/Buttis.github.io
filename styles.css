@@ -1,0 +1,42 @@
+.Gamerblock {
+  padding: 10px;
+  position: relative;
+}
+
+.Gamer {
+  margin-bottom: 50px;
+}
+
+.Gamerface {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.Gamername {
+  margin: 0;
+}
+
+body {
+  background-color: #997ab8;
+  text-align: center;
+}
+
+@media only screen and (min-width: 500px) {
+  .Gamer {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .Gamerface {
+    height: 250px;
+    width: 250px;
+  }
+
+}
+
+@media only screen and (min-width: 760px) {
+  .title {
+    font-size: 4em;
+  }
+}
