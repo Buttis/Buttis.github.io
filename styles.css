@@ -21,6 +21,100 @@
   position: relative;
 }
 
+.Gamer-grid {
+  margin: 1em auto;
+  max-width: 1500px;
+  text-align: center;
+}
+
+.Gamer-grid li {
+  border: 3px solid #e6ffe6;
+  display: inline-block;
+  margin: 1em;
+  width: 206px;
+  border-radius: 50%;
+}
+
+.Gamer-grid img {
+  display: block;
+  max-width: 100%;
+}
+
+.Gamer-grid figure {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+
+.Gamer-grid figcaption {
+  background: rgba(0,0,0,0.8);
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+  border-radius: 50%;
+}
+
+.Gamer-grid figcaption p {
+	display: table-cell;
+	font-size: 1.5em;
+	position: relative;
+	top: -40px;
+	width: 200px;
+	vertical-align: middle;
+}
+
+.Gamer-grid li:hover figcaption {
+	opacity: 1;
+  border-radius: 50%;
+}
+
+.Gamer-grid figcaption p {
+	display: table-cell;
+	font-size: 1.5em;
+	position: relative;
+	top: -40px;
+	width: 289px;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	vertical-align: middle;
+}
+
+.Gamer-grid li:hover figcaption p {
+	-moz-transform: translateY(40px);
+	-webkit-transform: translateY(40px);
+	transform: translateY(40px);
+}
+
+.Gamer-grid figcaption {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
+	-webkit-transition-delay: 100ms;
+	-moz-transition-delay: 100ms;
+	transition-delay: 100ms;
+	z-index: 100;
+}
+
 .Gamer {
   margin-bottom: 50px;
 }
@@ -31,13 +125,13 @@
   border-radius: 50%;
 }
 
-.Gamername {
+/*.Gamername {
   margin: 0;
   margin-top: 2px;
   font-size: 1em;
   text-transform: none;
   color: #e6ffe6;
-}
+}*/
 
 .carousel {
   height: 30%;
@@ -87,9 +181,19 @@ h3 {
   color: #e6ffe6;
   text-transform: none;
 }
+ol, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+	list-style: none;
+  line-height: 1;
+}
 
 @media only screen and (min-width: 500px) {
-  .Gamer {
+  /*.Gamer {
     display: inline-block;
     padding: 10px;
   }
@@ -97,11 +201,11 @@ h3 {
   .Gamerface {
     height: 200px;
     width: 200px;
-  }
+  }*/
 
 }
 
 @media only screen and (min-width: 760px) {
-  .title {
-  }
+  /*.title {
+  }*/
 }
