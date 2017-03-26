@@ -4,10 +4,17 @@
   text-transform: none;
 }
 
+
 .BH-heading {
   font-size: 4em;
+  font-family: 'Armata', sans-serif;
   text-transform: uppercase;
   color: #e6ffe6;
+}
+
+.BH-text {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
 }
 
 .GP-heading {
@@ -166,6 +173,7 @@
 body {
   background-color: #181b18;
   text-align: center;
+  font-family: 'Armata', sans-serif;
   font-size: 12px;
   padding-top: 65px;
 }
