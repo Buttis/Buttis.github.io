@@ -17,18 +17,28 @@
     <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Armata|Lato">
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <div class="kontainer">
-      <div class="Buttis">
+    <div class="container" id="top">
+      <header>
         <h1 class="BH-heading" id="BH">Buttis hjältar</h>
-        <p class="BH-text">Buttis hjältar (buttis heroes) a team famous for its swift and skillful way of securing towns and areas. The team is active in games such as arma, battlefield, Overwatch and many more. The core team consists of four guys (Butti, Plasthink, Diskett and Klab) from Nyköping, Sweden. The core has played together since they were children, all up through the years of school and university, and can be considered more brothers than friends. In recent years the team has added on more members, most notably the member Krille, who's been a stable addition to the team for years, and can be considered a core member.</p>
-        <p class="BH-text">Through games and life, more players have been added on to the roster. And make appearances depending on game and day.</p>
+      </header>
+      <div class="container">
+        <div class="Buttis">
+          <p class="BH-text">Buttis hjältar (Butti's Heroes) - A team famous for its swift and skillful way of securing towns and areas. The team is active in games such as Arma, Battlefield, Overwatch and many more.</p>
+          <p class="BH-text">The core team consists of four guys (Butti, Plasthink, Diskett and Klab) from Nyköping, Sweden. The core has played together since they were children, all up through the years of school and university, and can be considered more brothers than friends.</p>
+          <p class="BH-text">In recent years the team has added on more members, most notably the member Krille, who's been a stable addition to the team for years, and can be considered a core member.</p>
+          <p class="BH-text">Through games and life, more players have been added on to the roster. And make appearances depending on game and day.</p>
+        </div>
       </div>
 
-      <div class="Gamerblock">
+      <div class="Gamerblock container">
+        <div class="container">
+          <h1 class="BH-heading" id="Core">Core Team</h>
+        </div>
         <ul class="Gamer-grid">
           <li>
             <a href="butti.html">
@@ -42,17 +52,8 @@
           <li>
             <a href="diskett.html">
               <figure id="Diskett">
-                <img class="Gamerface" src="./bilder/Diskett.jpg" alt="Diskett">
+                <img class="Gamerface" src="./bilder/Placeholder.jpg" alt="Diskett">
                 <figcaption><p class="Gamername">Diskett</p></figcaption>
-              </figure>
-            </a>
-          </li>
-
-          <li>
-            <a href="johar.html">
-              <figure id="Johar">
-                <img class="Gamerface" src="./bilder/Placeholder.jpg" alt="Johar">
-                <figcaption><p class="Gamername">Johar</p></figcaption>
               </figure>
             </a>
           </li>
@@ -76,6 +77,33 @@
           </li>
 
           <li>
+            <a href="plasthink.html">
+              <figure id="Plasthink">
+                <img class="Gamerface" src="./bilder/Plasthink.jpg" alt="Plasthink">
+                <figcaption><p class="Gamername">Plasthink</p></figcaption>
+              </figure>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="Gamerblock container">
+        <div class="container">
+          <h1 class="BH-heading" id="Additional">Additional members</h>
+        </div>
+        <ul class="Gamer-grid">
+
+          <li>
+            <a href="johar.html">
+              <figure id="Johar">
+                <img class="Gamerface" src="./bilder/Placeholder.jpg" alt="Johar">
+                <figcaption><p class="Gamername">Johar</p></figcaption>
+              </figure>
+            </a>
+          </li>
+
+          <li>
             <a href="murklan.html">
               <figure id="Murklan">
                 <img class="Gamerface" src="./bilder/Placeholder.jpg" alt="Murklan">
@@ -89,15 +117,6 @@
               <figure id="Nicke">
                 <img class="Gamerface" src="./bilder/Placeholder.jpg" alt="Nicke">
                 <figcaption><p class="Gamername">Nicke</p></figcaption>
-              </figure>
-            </a>
-          </li>
-
-          <li>
-            <a href="plasthink.html">
-              <figure id="Plasthink">
-                <img class="Gamerface" src="./bilder/Plasthink.jpg" alt="Plasthink">
-                <figcaption><p class="Gamername">Plasthink</p></figcaption>
               </figure>
             </a>
           </li>
@@ -159,6 +178,7 @@
           <p>Get in contact with the team</p>
           <a class="contact-link" href="mailto:buttishjaltar@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
           <a class="contact-link" href="https://www.twitch.tv/klabcast"><i class="fa fa-twitch" aria-hidden="true"></i></a>
+          <a class="contact-link" href="https://github.com/Buttis"><i class="fa fa-github" aria-hidden="true"></i></a>
         </div>
       </footer>
     </div>
@@ -171,27 +191,30 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#BH">Buttis hjältar</a>
+          <a class="navbar-brand" href="#top">Buttis hjältar</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <!--<li class="active"><a href="#">Home</a></li>-->
+            <li class="active"><a href="#BH">About</a></li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#Gamerblock">Gamers
-              <span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#Core">Core Team <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="#Butti">Butti</a></li>
-                <li><a href="#Plasthink">Plasthink</a></li>
-                <li><a href="#Krille">Krille</a></li>
                 <li><a href="#Diskett">Diskett</a></li>
                 <li><a href="#Klab">Klab</a></li>
+                <li><a href="#Krille">Krille</a></li>
+                <li><a href="#Plasthink">Plasthink</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#Additional">Additional Members <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#Johar">Johar</a></li>
                 <li><a href="#Murklan">Murklan</a></li>
                 <li><a href="#Nicke">Nicke</a></li>
-                <li><a href="#Johar">Johar</a></li>
                 <li><a href="#Pontus">Pontus</a></li>
               </ul>
             </li>
-            <li><a href="#Gameplay">Gameplay</a></li>
             <li><a href="#bottom-contact">Contact</a></li>
           </ul>
         </div>
