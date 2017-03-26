@@ -4,12 +4,41 @@
   text-transform: none;
 }
 
+.container {
+  width: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.header {
+  background-color: #181b18;
+  color: #e6ffe6;
+  width: auto;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  background-color: #181b18;
+  color: #e6ffe6;
+  margin-top: 20px;
+  padding: 10px;
+  width: auto;
+  font-size: 20px;
+}
 
 .BH-heading {
   font-size: 4em;
   font-family: 'Armata', sans-serif;
   text-transform: uppercase;
   color: #e6ffe6;
+}
+
+.BH-sub-heading {
+  font-size: 4em;
+  font-family: 'Armata', sans-serif;
+  text-transform: uppercase;
+  color: #181b18;
 }
 
 .BH-text {
@@ -28,6 +57,10 @@
   position: relative;
 }
 
+.Gamername {
+  color: #e6ffe6;
+}
+
 .Gamer-grid {
   margin: 1em auto;
   max-width: 1500px;
@@ -35,7 +68,7 @@
 }
 
 .Gamer-grid li {
-  border: 3px solid #e6ffe6;
+  border: 3px dotted #181b18;
   display: inline-block;
   margin: 1em;
   width: 206px;
@@ -160,10 +193,10 @@
   margin: 10px;
 }
 
-.footer {
-  margin-top: 20px;
-  padding: 10px;
-  font-size: 12px;
+.contact-info {
+  font-size: 20px;
+  color: #e6ffe6;
+  text-transform: none;
 }
 
 .dropdown-menu {
@@ -171,7 +204,7 @@
 }
 
 body {
-  background-color: #181b18;
+  background-color: #e6ffe6;
   text-align: center;
   font-family: 'Armata', sans-serif;
   font-size: 12px;
@@ -180,13 +213,13 @@ body {
 
 p {
   font-size: 20px;
-  color: #e6ffe6;
+  color: #181b18;
   text-transform: none;
 }
 
 h3 {
   font-size: 30px;
-  color: #e6ffe6;
+  color: #181b18;
   text-transform: none;
 }
 ol, ul {
