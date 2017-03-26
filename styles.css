@@ -7,8 +7,8 @@
 
 .container {
   width: auto;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .header {
@@ -23,7 +23,7 @@
   background-color: #181b18;
   color: #e6ffe6;
   margin-top: 20px;
-  padding: 10px;
+  padding: 20px;
   width: auto;
   font-size: 20px;
 }
