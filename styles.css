@@ -1,5 +1,6 @@
 .navbar {
   background-color: #181b18;
+  color: #e6ffe6;
   font-size: 12px;
   text-transform: none;
 }
@@ -42,7 +43,7 @@
 }
 
 .BH-text {
-  text-align: left;
+  text-align: justify;
   font-family: 'Lato', sans-serif;
 }
 
@@ -208,7 +209,7 @@ body {
   text-align: center;
   font-family: 'Armata', sans-serif;
   font-size: 12px;
-  padding-top: 65px;
+  padding-top: 50px;
 }
 
 p {
