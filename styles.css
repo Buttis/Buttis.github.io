@@ -7,8 +7,6 @@
 
 .container {
   width: auto;
-  padding-left: 60px;
-  padding-right: 60px;
 }
 
 .header {
@@ -90,7 +88,6 @@
   margin: 0;
 }
 
-
 .Gamer-grid figcaption {
   background: rgba(0,0,0,0.8);
 	color: white;
@@ -166,15 +163,31 @@
   border-radius: 50%;
 }
 
-/*.Gamername {
-  margin: 0;
-  margin-top: 2px;
-  font-size: 1em;
-  text-transform: none;
-  color: #e6ffe6;
-}*/
+.Gamercardface {
+  height: 250px;
+  width: 250px;
+  border-radius: 5%;
+}
 
-.carousel {
+.stats {
+  width: 250px;
+}
+
+.gamerstats {
+  width: 250px;
+  color: #181b18;
+  text-align: left;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+.strength {
+  padding: 40px;
+  text-align: justify;
+}
+
+/*.carousel {
   height: 30%;
 }
 
@@ -186,7 +199,7 @@
 .karusellp {
   font-size: 10px;
   color: #e6ffe6;
-}
+}*/
 
 .contact-link {
   color: #e6ffe6;
@@ -235,19 +248,24 @@ ol, ul {
 }
 
 @media only screen and (min-width: 500px) {
-  /*.Gamer {
-    display: inline-block;
-    padding: 10px;
+  .Gamercard {
+    text-align: left;
+		display: inline-block;
+		padding: 10px;
   }
 
-  .Gamerface {
-    height: 200px;
-    width: 200px;
-  }*/
+  .gamerstats {
+    margin-left: 0;
+  }
 
+  .strength {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 760px) {
-  /*.title {
-  }*/
+  .container {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 }
