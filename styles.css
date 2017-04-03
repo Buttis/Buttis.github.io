@@ -1,271 +1,161 @@
-.navbar {
-  background-color: #181b18;
-  color: #e6ffe6;
-  font-size: 12px;
-  text-transform: none;
+/*ess*/
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
 }
-
+h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #111;
+}
+.BH-text{
+  text-align: justify;
+}
 .container {
-  width: auto;
+    padding: 80px 120px;
+}
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
 }
 
-.header {
-  background-color: #181b18;
-  color: #e6ffe6;
-  width: auto;
-  padding: 10px;
-  margin-bottom: 50px;
+.Ess {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 25%;
+    height: 25%;
+    opacity: 0.7;
 }
-
-.footer {
-  background-color: #181b18;
-  color: #e6ffe6;
-  margin-top: 20px;
-  padding: 20px;
-  width: auto;
-  font-size: 20px;
-}
-
-.BH-heading {
-  font-size: 4em;
-  font-family: 'Armata', sans-serif;
-  text-transform: uppercase;
-  color: #e6ffe6;
-}
-
-.BH-sub-heading {
-  font-size: 4em;
-  font-family: 'Armata', sans-serif;
-  text-transform: uppercase;
-  color: #181b18;
-}
-
-.BH-text {
-  text-align: justify;
-  font-family: 'Lato', sans-serif;
-}
-
-.GP-heading {
-  font-size: 3em;
-  text-transform: uppercase;
-  color: #e6ffe6;
-}
-
-.Gamerblock {
-  padding: 10px;
-  position: relative;
-}
-
-.Gamername {
-  color: #e6ffe6;
-}
-
-.Gamer-grid {
-  margin: 1em auto;
-  max-width: 1500px;
-  text-align: center;
-}
-
-.Gamer-grid li {
-  border: 3px dotted #181b18;
-  display: inline-block;
-  margin: 1em;
-  width: 206px;
-  border-radius: 50%;
-}
-
-.Gamer-grid img {
-  display: block;
-  max-width: 100%;
-}
-
-.Gamer-grid figure {
-  height: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 200px;
-  border-radius: 50%;
-  margin: 0;
-}
-
-.Gamer-grid figcaption {
-  background: rgba(0,0,0,0.8);
-	color: white;
-	display: table;
-	height: 100%;
-	left: 0;
-	opacity: 0;
-	position: absolute;
-	right: 0;
-	top: 0;
-	z-index: 100;
-  border-radius: 50%;
-}
-
-.Gamer-grid figcaption p {
-	display: table-cell;
-	font-size: 1.5em;
-	position: relative;
-	top: -40px;
-	width: 200px;
-	vertical-align: middle;
-}
-
-.Gamer-grid li:hover figcaption {
-	opacity: 1;
-  border-radius: 50%;
-}
-
-.Gamer-grid figcaption p {
-	display: table-cell;
-	font-size: 1.5em;
-	position: relative;
-	top: -40px;
-	width: 289px;
-	-webkit-transition: all 300ms ease-out;
-	-moz-transition: all 300ms ease-out;
-	transition: all 300ms ease-out;
-	vertical-align: middle;
-}
-
-.Gamer-grid li:hover figcaption p {
-	-moz-transform: translateY(40px);
-	-webkit-transform: translateY(40px);
-	transform: translateY(40px);
-}
-
-.Gamer-grid figcaption {
-	background: rgba(0,0,0,0.8);
-	color: white;
-	display: table;
-	height: 100%;
-	left: 0;
-	opacity: 0;
-	position: absolute;
-	right: 0;
-	top: 0;
-	-webkit-transition: all 300ms;
-	-moz-transition: all 300ms;
-	transition: all 300ms;
-	-webkit-transition-delay: 100ms;
-	-moz-transition-delay: 100ms;
-	transition-delay: 100ms;
-	z-index: 100;
-}
-
-.Gamer {
-  margin-bottom: 50px;
-}
-
-.Gamerface {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-}
-
-.Gamercardface {
-  height: 250px;
-  width: 250px;
-  border-radius: 5%;
-}
-
-.stats {
-  width: 250px;
-}
-
-.gamerstats {
-  width: 250px;
-  color: #181b18;
-  text-align: left;
-  font-size: 25px;
-  margin-top: 10px;
-  margin-left: 90px;
-}
-
-.strength {
-  padding: 40px;
-  text-align: justify;
-}
-
-/*.carousel {
-  height: 30%;
-}
-
-.karuselltitel {
-  font-size: 12px;
-  color: #e6ffe6;
-}
-
-.karusellp {
-  font-size: 10px;
-  color: #e6ffe6;
-}*/
 
 .contact-link {
-  color: #e6ffe6;
-  font-size: 30px;
-  margin: 10px;
+  font-size: 1.8em;
+  padding: 10px;
+  color: #111;
 }
 
-.contact-info {
-  font-size: 20px;
-  color: #e6ffe6;
-  text-transform: none;
+.person:hover {
+    border-color: #3e3e42;
+}
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+.carousel-caption h3 {
+    color: #fff !important;
 }
 
-.dropdown-menu {
-  text-align: left;
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
 }
+.bg-1 h3 {color: #fff;}
 
-body {
-  background-color: white;
-  text-align: center;
-  font-family: 'Armata', sans-serif;
-  font-size: 12px;
-  padding-top: 50px;
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
 }
-
-p {
-  font-size: 20px;
-  color: #181b18;
-  text-transform: none;
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
-
-h3 {
-  font-size: 30px;
-  color: #181b18;
-  text-transform: none;
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
 }
-ol, ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-	list-style: none;
-  line-height: 1;
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
 }
-
-@media only screen and (min-width: 500px) {
-  .Gamercard {
-    text-align: left;
-		display: inline-block;
-		padding: 10px;
-  }
-
-  .gamerstats {
-    margin-left: 0;
-  }
-
-  .strength {
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+.modal-header, h4, .close {
+    background-color: #333;
+    color: #fff !important;
     text-align: center;
-  }
+    font-size: 30px;
+}
+.modal-header, .modal-body {
+    padding: 40px 50px;
+}
+.nav-tabs li a {
+    color: #777;
+}
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+}
+.dropdown-menu li a {
+    color: #000 !important;
+}
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+footer a {
+    color: #f5f5f5;
+}
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+.form-control {
+    border-radius: 0;
+}
+textarea {
+    resize: none;
 }
 
-@media only screen and (min-width: 760px) {
-  .container {
-    padding-left: 2em;
-    padding-right: 2em;
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
   }
 }
