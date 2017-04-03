@@ -31,8 +31,14 @@ h3, h4 {
     opacity: 0.7;
 }
 
+.contact-link {
+  font-size: 1.8em;
+  padding: 10px;
+  color: #111;
+}
+
 .person:hover {
-    border-color: #f1f1f1;
+    border-color: #3e3e42;
 }
 .carousel-inner img {
     -webkit-filter: grayscale(90%);
@@ -43,11 +49,7 @@ h3, h4 {
 .carousel-caption h3 {
     color: #fff !important;
 }
-@media (max-width: 600px) {
-  .carousel-caption {
-    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-  }
-}
+
 .bg-1 {
     background: #2d2d30;
     color: #bdbdbd;
@@ -150,4 +152,10 @@ footer a:hover {
 }
 textarea {
     resize: none;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
 }
