@@ -40,6 +40,7 @@ h3, h4 {
 .person:hover {
     border-color: #3e3e42;
 }
+
 .carousel-inner img {
     -webkit-filter: grayscale(90%);
     filter: grayscale(90%); /* make all photos black and white */
