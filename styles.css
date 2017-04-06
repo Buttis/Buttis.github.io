@@ -12,9 +12,11 @@ h3, h4 {
 .BH-text{
   text-align: justify;
 }
+
 .container {
-    padding: 80px 120px;
+    padding: 40px 60px;
 }
+
 .person {
     border: 10px solid transparent;
     margin-bottom: 25px;
