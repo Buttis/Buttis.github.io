@@ -5,22 +5,18 @@
     <title>Buttis hjältar</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <meta property="og:title" content="Buttis hjältar">
     <meta property="og:url" content="Buttis.github.io">
     <meta property="og:description" content="About the website">
     <meta property="og:image" content="./bilder/Ess.jpg">
-
     <link rel="icon" type="image/png" href="./bilder/favicon.ico">
     <link rel="apple-touch-icon" href="./bilder/favicon.ico">
-
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
-
   </head>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -66,15 +62,36 @@
         <iframe width="50%" height="83" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293141102&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
       </div>
     </div>
-
-    <!-- Footer -->
     <footer class="text-center">
     <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
       <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
     </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Initialize Tooltip
+      $('[data-toggle="tooltip"]').tooltip();
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+          // Store hash
+          var hash = this.hash;
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function(){
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    })
+    </script>
   </body>
 </html>
